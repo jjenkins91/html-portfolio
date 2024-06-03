@@ -1,0 +1,366 @@
+.permanent-marker-regular {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+  .courier-prime-bold {
+    font-family: "Courier Prime", monospace;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+body {
+    margin: 0; 
+    text-align: center;
+}
+
+hr {
+    margin: 50px;
+}
+
+header {
+   text-align: center;
+   background-color: #5BBCFF;
+   color: white;
+   height: 95vh;
+   align-content: center;
+   font-family: "Permanent Marker", cursive;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 2rem;
+}
+
+h1 {
+    margin: 0;
+}
+
+h3 {
+    font-size: 3rem;
+    text-align: center;
+    font-family: "Courier Prime", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.aboutme-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.my-image {
+    padding-top: 20px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.about-me-paragraph{
+    font-family: "Courier Prime", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+.experience-container {
+    background-image: linear-gradient(#000, #000);
+    background-size: 2px 100%;
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+.fis {
+    display: flex;
+    justify-content: center;
+}
+
+.sdp {
+    display: flex;
+    justify-content: center;
+}
+
+.bgr {
+    display: flex;
+    justify-content: center;
+}
+
+.fis-description {
+    font-size: 20px;
+    padding-top: 100px;
+    padding-right: 100px;
+}
+
+.sdp-description {
+    font-size: 20px;
+    padding-top: 100px;
+    padding-left: 250px;
+}
+
+.bgr-description {
+    font-size: 20px;
+    padding-top: 100px;
+    padding-right: 185px;
+    padding-left: 40px;
+}
+
+.fis-job-images {
+    padding-top: 20px;
+    margin-right: 150px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.sdp-job-images {
+    padding-top: 100px;
+    margin-left: 50px;
+    height: 150px;
+}
+
+.bgr-job-images {
+    padding-top: 20px;
+    margin-right: 130px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.job-title {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.job-date {
+    font-style: italic;
+    font-weight: 300;
+}
+
+.job-description {
+    font-family: "Courier Prime", monospace;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+.skills-container > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 70px;
+    height: 80px;
+}
+
+.contact-container > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px; 
+}
+
+.gmail-img {
+    height: 40px; 
+    margin: 0;
+    padding-right: 50px;
+}
+
+.linkedin-img {
+    height: 40px; 
+    margin: 0;
+    padding-right: 10px;
+}
+
+.gmail-img:hover {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    height: 43px; 
+}
+
+.linkedin-img:hover {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    height: 43px; 
+}
+
+.resumeButton {
+    margin-top: 50px;
+	box-shadow: -2px 10px 14px 3px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:22px;
+	border:2px solid #29668f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 4px 7px #3d768a;
+}
+.resumeButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.resumeButton:active {
+	position:relative;
+	top:1px;
+}
+
+.footer-container {
+    height: 10vh;
+    background-color: #5BBCFF;
+    align-content: center;
+}
+
+@media (max-width: 910px) {
+    header {
+        text-align: center;
+        background-color: #5BBCFF;
+        color: white;
+        height: 95vh;
+        align-content: center;
+        font-family: "Permanent Marker", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+     }
+     h3 {
+        font-size: 1.5rem;
+        text-align: center;
+        font-family: "Courier Prime", monospace;
+        font-weight: 700;
+        font-style: normal;
+    }
+    .about-me-paragraph{
+        font-family: "Courier Prime", monospace;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1rem;
+    }
+    .aboutme-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .experience-container {
+        background-image: none;
+
+    }
+    .my-image {
+        padding-top: 20px;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+    .fis {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    .sdp {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .bgr {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    .fis-description {
+        font-size: 20px;
+        padding: 0;
+    }
+    
+    .sdp-description {
+        font-size: 20px;
+        padding: 0;
+
+    }
+    
+    .bgr-description {
+        font-size: 20px;
+        padding-top: 0;
+        padding-right: 0;
+    }
+    
+    .fis-job-images {
+        height: 200px;
+        border-radius: 0;
+        margin: 0;
+        padding: 0;
+      
+    }
+    
+    .sdp-job-images {
+        padding-top: 20px;
+        margin-left: 0;
+        height: 150px;
+    }
+    
+    .bgr-job-images {
+        padding-top: 0;
+        margin-right: 0;
+        height: 200px;
+    }
+
+    .resumeButton {
+        margin-top: 50px;
+        box-shadow: -2px 10px 14px 3px #276873;
+        background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+        background-color:#599bb3;
+        border-radius:22px;
+        border:2px solid #29668f;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:15px;
+        font-weight:bold;
+        padding:13px 32px;
+        text-decoration:none;
+        text-shadow:0px 4px 7px #3d768a;
+    }
+    .skills-container > ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        height: 350px;
+        padding: 0;
+       
+    }
+    .skills-container > ul > img{
+        height: 50px;
+        width: 50px;
+       
+    }
+    .contact-container > ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px; 
+        padding: 0;
+    }
+    .gmail-img {
+        height: 40px; 
+        margin: 0;
+        padding-right: 0;
+    }
+    
+    .linkedin-img {
+        height: 40px; 
+        margin: 0;
+        padding-right: 0;
+    }
+}
+
